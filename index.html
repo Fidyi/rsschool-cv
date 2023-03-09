@@ -45,15 +45,15 @@
           const charCount = {};
           const arrayWord = word.toLowerCase().split('')
           const newArray =[]
-          for (let i = 0; i < arrayWord.length; i++) {
+          for (let i = 0; i &lt arrayWord.length; i++) {
             if (charCount[arrayWord[i]]) {
               charCount[arrayWord[i]]++;
             } else {
               charCount[arrayWord[i]] = 1;
             }
           }
-          for (let i = 0; i < arrayWord.length; i++) {
-            if (charCount[arrayWord[i]] > 1) {
+          for (let i = 0; i &lt arrayWord.length; i++) {
+            if (charCount[arrayWord[i]] &gt 1) {
               newArray.push (')')
             } else {
               newArray.push('(')
