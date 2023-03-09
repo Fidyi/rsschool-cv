@@ -1,1 +1,1 @@
-https://Fidyi.github.io/rsschool-cv/cv
+https://Fidy.github.io/rsschool-cv/
