@@ -42,24 +42,24 @@
       <section class="Code_wrapper">
         <h2>Code Example</h2>
         <pre><code>
-          const charCount = {};
-          const arrayWord = word.toLowerCase().split('')
-          const newArray =[]
-          for (let i = 0; i &amp;lt; arrayWord.length; i++) {
-            if (charCount[arrayWord[i]]) {
-              charCount[arrayWord[i]]++;
-            } else {
-              charCount[arrayWord[i]] = 1;
+            const charCount = {};
+            const arrayWord = word.toLowerCase().split('');
+            const newArray =[];
+            for (let i = 0; i &amp;lt; arrayWord.length; i++) {
+              if (charCount[arrayWord[i]]) {
+                charCount[arrayWord[i]]++;
+              } else {
+                charCount[arrayWord[i]] = 1;
+              }
             }
-          }
-          for (let i = 0; i &amp;lt; arrayWord.length; i++) {
-            if (charCount[arrayWord[i]] &gt 1) {
-              newArray.push (')')
-            } else {
-              newArray.push('(')
+            for (let i = 0; i &amp;lt; arrayWord.length; i++) {
+              if (charCount[arrayWord[i]] &amp;gt; 1) {
+                newArray.push (')')
+              } else {
+                newArray.push('(')
+              }
             }
-          }
-          return newArray.join('')
+            return newArray.join('');
         </code></pre>
       </section>
       <section>
