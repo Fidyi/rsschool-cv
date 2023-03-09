@@ -56,5 +56,4 @@ Additional training:
 
 
 ## English
-- [Name of project], [Tools used], [Link to project or repository]
-- [Name of project], [Tools used], [Link to project or repository]
+- B2
