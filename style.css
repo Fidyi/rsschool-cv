@@ -3,3 +3,14 @@
     width: 200px;
     height: 200px;
   }
+
+.logo{
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+body{
+  max-width: 1000px;
+  margin: auto;
+}
