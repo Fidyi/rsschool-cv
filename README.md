@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Fidy.github.io/rsschool-cv/
